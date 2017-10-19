@@ -14,13 +14,13 @@
         <TextBox x:Name="date" HorizontalAlignment="Left" Margin="65,97,0,0" TextWrapping="Wrap" Text="Date:" VerticalAlignment="Top" Height="55" Width="91" FontSize="30" IsReadOnly="True"/>
         <TextBox x:Name="material" HorizontalAlignment="Left" Margin="65,527,0,0" TextWrapping="Wrap" Text="Material:" VerticalAlignment="Top" Height="55" Width="143" FontSize="30" IsReadOnly="True"/>
         <TextBox x:Name="name" HorizontalAlignment="Left" Margin="65,184,0,0" TextWrapping="Wrap" Text="Name:" VerticalAlignment="Top" Height="55" Width="113" FontSize="30" IsReadOnly="True"/>
-        <TextBox x:Name="givenDate" HorizontalAlignment="Left" Margin="338,97,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="55" Width="400" FontSize="30" TextChanged="givenDate_Copy_TextChanged" IsReadOnly="True"/>
-        <TextBox x:Name="reviewNewQuote" HorizontalAlignment="Left" Margin="363,10,0,0" TextWrapping="Wrap" Text="Review Your Order:" VerticalAlignment="Top" Height="55" Width="278" FontSize="30" TextChanged="givenDate_Copy_TextChanged" IsReadOnly="True"/>
-        <TextBox x:Name="givenName" HorizontalAlignment="Left" Margin="338,184,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="55" Width="400" FontSize="30" TextChanged="givenDate_Copy_TextChanged" IsReadOnly="True"/>
-        <TextBox x:Name="givenHeight" HorizontalAlignment="Left" Margin="338,270,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="55" Width="400" FontSize="30" TextChanged="givenDate_Copy_TextChanged" IsReadOnly="True"/>
-        <TextBox x:Name="givenWidth" HorizontalAlignment="Left" Margin="338,353,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="55" Width="400" FontSize="30" TextChanged="givenDate_Copy_TextChanged" IsReadOnly="True"/>
-        <TextBox x:Name="givenSurfaceArea" HorizontalAlignment="Left" Margin="338,441,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="55" Width="400" FontSize="30" TextChanged="givenDate_Copy_TextChanged" IsReadOnly="True"/>
-        <TextBox x:Name="givenMaterial" HorizontalAlignment="Left" Margin="338,527,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="55" Width="400" FontSize="30" TextChanged="givenDate_Copy_TextChanged" IsReadOnly="True"/>
+        <TextBox x:Name="givenDate" HorizontalAlignment="Left" Margin="338,97,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="55" Width="400" FontSize="30" IsReadOnly="True"/>
+        <TextBox x:Name="reviewNewQuote" HorizontalAlignment="Left" Margin="363,10,0,0" TextWrapping="Wrap" Text="Review Your Order:" VerticalAlignment="Top" Height="55" Width="278" FontSize="30" IsReadOnly="True"/>
+        <TextBox x:Name="givenName" HorizontalAlignment="Left" Margin="338,184,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="55" Width="400" FontSize="30" IsReadOnly="True"/>
+        <TextBox x:Name="givenHeight" HorizontalAlignment="Left" Margin="338,270,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="55" Width="400" FontSize="30" IsReadOnly="True"/>
+        <TextBox x:Name="givenWidth" HorizontalAlignment="Left" Margin="338,353,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="55" Width="400" FontSize="30" IsReadOnly="True"/>
+        <TextBox x:Name="givenSurfaceArea" HorizontalAlignment="Left" Margin="338,441,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="55" Width="400" FontSize="30" IsReadOnly="True"/>
+        <TextBox x:Name="givenMaterial" HorizontalAlignment="Left" Margin="338,527,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="55" Width="400" FontSize="30" IsReadOnly="True"/>
         <Button x:Name="displayOK" Content="OK" HorizontalAlignment="Left" Margin="889,560,0,0" VerticalAlignment="Top" Background="LightGray" BorderThickness="8" BorderBrush="Black" Height="70" Width="125" FontSize="30" Click="displayOK_Click"/>
         <Image Source="Assets/Square44x44Logo.scale-200.png" Margin="792,157,36,232"/>
     </Grid>
