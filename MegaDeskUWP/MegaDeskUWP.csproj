@@ -95,6 +95,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SearchQuotes.xaml.cs">
+      <DependentUpon>SearchQuotes.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ViewAllQuotes.xaml.cs">
       <DependentUpon>ViewAllQuotes.xaml</DependentUpon>
     </Compile>
@@ -127,6 +130,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="SearchQuotes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ViewAllQuotes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

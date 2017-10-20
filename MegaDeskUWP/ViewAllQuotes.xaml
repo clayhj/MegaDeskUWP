@@ -8,10 +8,9 @@
     mc:Ignorable="d">
 
     <Grid Background="LightSlateGray">
-        <Grid HorizontalAlignment="Left" Height="172" Margin="379,197,0,0" VerticalAlignment="Top" Width="182" Background="LightGray"/>
         <TextBox x:Name="viewAllQuotes" HorizontalAlignment="Left" Margin="404,34,0,0" TextWrapping="Wrap" Text="View All Quotes" VerticalAlignment="Top" Height="55" Width="247" FontSize="30" IsReadOnly="True"/>
         <Button x:Name="displayOK" Content="OK" HorizontalAlignment="Left" Margin="889,560,0,0" VerticalAlignment="Top" Background="LightGray" BorderThickness="8" BorderBrush="Black" Height="70" Width="125" FontSize="30" Click="displayOK_Click"/>
-
+        <GridView HorizontalAlignment="Left" Height="251" Margin="108,173,0,0" VerticalAlignment="Top" Width="796"/>
 
     </Grid>
 </Page>
