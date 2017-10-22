@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Storage;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -25,6 +26,26 @@ namespace MegaDeskUWP
         public MainPage()
         {
             this.InitializeComponent();
+        }
+
+        private async void addQuotePageButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(AddQuote));
+        }
+
+        private void exitButton_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Exit();
+        }
+
+        private void viewQuotePageButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ViewAllQuotes));
+        }
+
+        private void searchQuotePageButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(SearchQuotes));
         }
     }
 }

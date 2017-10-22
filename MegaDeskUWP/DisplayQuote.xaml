@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="MegaDeskUWP.DisplayQuote"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MegaDeskUWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Canvas HorizontalAlignment="Left" Height="640" VerticalAlignment="Top" Width="1024">
+            <Grid Height="620" Canvas.Left="10" Canvas.Top="10" Width="1004">
+                <TextBlock HorizontalAlignment="Center" Margin="0,25,0,0" TextWrapping="Wrap" Text="Your Quote" VerticalAlignment="Top" FontSize="48"/>
+                <Grid Margin="110,132,110,65">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Your Name:" VerticalAlignment="Top" FontSize="22" Height="35" FontWeight="Bold"/>
+                    <TextBlock x:Name="customerName" HorizontalAlignment="Left" Margin="180,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="22" Height="35" Width="175"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="0,100,0,0" TextWrapping="Wrap" Text="Desk Size:" VerticalAlignment="Top" FontSize="22" Height="35" FontWeight="Bold"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="0,200,0,0" TextWrapping="Wrap" Text="Drawers:" VerticalAlignment="Top" FontSize="22" Height="35" FontWeight="Bold"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="426,0,0,0" TextWrapping="Wrap" Text="Material:" VerticalAlignment="Top" FontSize="22" Height="35" FontWeight="Bold"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="426,100,0,0" TextWrapping="Wrap" Text="Delivery:" VerticalAlignment="Top" FontSize="22" Height="35" FontWeight="Bold"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="426,200,0,0" TextWrapping="Wrap" Text="Total Price:" VerticalAlignment="Top" FontSize="22" Height="35" FontWeight="Bold"/>
+                    <TextBlock x:Name="deskSize" HorizontalAlignment="Left" Margin="180,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="22" Height="35" Width="175"/>
+                    <TextBlock x:Name="drawers" HorizontalAlignment="Left" Margin="180,198,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="22" Height="35" Width="175"/>
+                    <TextBlock x:Name="deskMaterial" HorizontalAlignment="Left" Margin="609,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="22" Height="35" Width="175"/>
+                    <TextBlock x:Name="rushOrder" HorizontalAlignment="Left" Margin="609,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="22" Height="35" Width="175"/>
+                    <TextBlock x:Name="totalPrice" HorizontalAlignment="Left" Margin="609,200,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="22" Height="35" Width="175"/>
+                    <Button x:Name="mainMenuButton" Content="Main Menu" HorizontalAlignment="Left" Margin="390,315,0,0" VerticalAlignment="Top" FontSize="22" RenderTransformOrigin="0.626,0.6" Width="200" Height="50" Click="mainMenuButton_Click"/>
+                    <Button x:Name="saveQuoteButton" Content="Save Quote" HorizontalAlignment="Left" Margin="180,315,0,0" VerticalAlignment="Top" FontSize="22" RenderTransformOrigin="0.626,0.6" Width="200" Height="50" Click="saveQuoteButton_Click"/>
+                </Grid>
+            </Grid>
+        </Canvas>
+
+    </Grid>
+</Page>

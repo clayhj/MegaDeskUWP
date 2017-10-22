@@ -8,6 +8,18 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Canvas HorizontalAlignment="Center" Height="640" VerticalAlignment="Top" Width="1024">
+            <Grid Height="620" Canvas.Left="10" Canvas.Top="10" Width="1004">
+                <TextBlock HorizontalAlignment="Center" Margin="0,30,0,0" TextWrapping="Wrap" Text="Main Menu" VerticalAlignment="Top" FontSize="48"/>
+                <StackPanel Margin="142,151,611,111" Orientation="Vertical">
+                    <Button x:Name="addQuotePageButton" Content="Add Quote" HorizontalAlignment="Left" VerticalAlignment="Top" Width="250" Height="70" Margin="0,0,0,25" FontSize="22" Click="addQuotePageButton_Click"/>
+                    <Button x:Name="viewQuotePageButton" Content="View Quotes" HorizontalAlignment="Left" VerticalAlignment="Top" Width="250" Height="70" Margin="0,0,0,25" FontSize="22" Click="viewQuotePageButton_Click"/>
+                    <Button x:Name="searchQuotePageButton" Content="Search Quotes" HorizontalAlignment="Left" VerticalAlignment="Top" Width="250" Height="70" Margin="0,0,0,25" FontSize="22" Click="searchQuotePageButton_Click"/>
+                    <Button x:Name="exitButton" Content="Exit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="250" Height="70" FontSize="22" Click="exitButton_Click"/>
+                </StackPanel>
+                <Image Source="Assets/StoreLogo.png" HorizontalAlignment="Left" Height="207" Margin="581,227,0,0" VerticalAlignment="Top" Width="309"/>
+            </Grid>
+        </Canvas>
 
     </Grid>
 </Page>
